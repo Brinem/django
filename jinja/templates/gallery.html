@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Gallery{% endblock %}
+{% block header %}Hezgen Motors Gallery{% endblock %}
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/gall.css' %}">
+    <h1>This is my gallery</h1>
+    <img src="{% static '/img/featured1.png' %}" alt="Car 1">
+    <img src="{% static '/img/featured2.png' %}" alt="Car 1">
+    <img src="{% static '/img/featured3.png' %}" alt="Car 1">
+    <img src="{% static '/img/featured4.png' %}" alt="Car 1">
+    <img src="{% static '/img/featured5.png' %}" alt="Car 1">
+    <img src="{% static '/img/popular5.png' %}" alt="Car 1">
+    <img src="{% static '/img/featured2.png' %}" alt="Car 1">
+    <img src="{% static '/img/popular5.png' %}" alt="Car 1">
+    <p>Lamborghini Urus</p>
+{% endblock %}

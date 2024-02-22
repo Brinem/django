@@ -1,0 +1,33 @@
+h1{
+    color: #075f9f;
+    text-align: center;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+p{
+    color: #08484f;
+}
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between menu items as needed */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
